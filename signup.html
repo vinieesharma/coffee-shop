@@ -1,0 +1,153 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Signup</title>
+    <link rel="stylesheet" type="text/css" href="signup.css">
+    <link rel="stylesheet" href="coffee by responsiv 2.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.js">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.min.css.map">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.min.js">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <div class="container-fluid sticky-top">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid bg-dark">
+                <a class="navbar-brand my-2 ms-4 p-2" href="index.html"
+                    style="background-color: rgb(103, 99, 87); border-radius: 50%;">
+                    <img src="Coffee-logo-illustration-on-transparent-background-PNG.png" alt="" width="60px"
+                        height="50px"><span class="h3 text-warning text-capitalize">coffee shop</span>
+
+                    <!-- &nbsp;<span style="color: rgb(248, 203, 4);">G -
+                     <span style="color: dodgerblue;">C
+                    <span style="color: rgb(239, 156, 93);">O</span>
+                    <span style="color: rgb(53, 250, 141);">F</span>
+                    <span style="color: rgb(230, 252, 198);">F</span>
+                    <span style="color: rgb(255, 102, 0);">E</span>
+                    <span style="color: rgb(255, 0, 72);">E</span></span></span>&nbsp;&nbsp;&nbsp;&nbsp -->
+                </a>
+                <a href="signin.html" target="_self" class="text-warning" >Sign-in</a>
+                <button class="navbar-toggler mb-2 text-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">Menu
+                    <!-- <span class="navbar-toggler-icon text-light"></span> -->
+                </button>
+                <div class="collapse navbar-collapse mt-3" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ">
+                        <a class="nav-link active" aria-current="page" href="index.html" target="_self">Home</a>
+                        <a class="nav-link" href="#footer">About</a>
+                        <a class="nav-link" href="orders.html" target="_self">category</a>
+                        <a class="nav-link" href="contact.html" target="_self">Contacts</a>
+                        <a class="nav-link" href="#">
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-light" type="submit">Search</button>
+                            </form>
+                        </a>
+                        <form class="d-flex">
+
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="form">
+
+      <h1> Signup Here!</h1>
+
+      <form action="" method="get" accept-charset="utf-8">
+        <input type="text"  name=""  placeholder="name"><br>
+        <input type="text"  name=""  placeholder="Email"><br>
+        <input type="password"  name=""  placeholder="password"><br>
+        <input type="text"  name=""  placeholder="age"><br>
+        <input type="text"  name=""  placeholder="address"><br>
+        <input type="text"  name=""  placeholder="phone"><br>
+
+        <br>
+        <select  name="countries" class="datalist">
+          <datalist id="countries">
+          <option class="selp" value="none">Select Your Country</option>
+          <option class="selq" value="India">India</option>
+          <option class="selq" value="Australia">Australia</option>
+          <option class="selq" value="new zealand">new zealand</option>
+          <option class="selq" value="England">England</option>
+          <option class="selq" value="America">America</option>
+          <option class="selq" value="China">China</option>
+        </datalist></select>
+        <select name="questioon">
+          <option class="selp" value="none">Select a secret question </option>
+          <option class="selq" value="1">what is your nickname ?</option>
+          <option class="selq" value="2">what is your best friend's name ?</option>
+          <option class="selq" value="3">what is your favourite game ?</option>
+        </select>
+        <input type="radio" name="gender" value="male" checked><span class="rad">Male</span>
+        <input type="radio" name="gender" value="female"> <span class="rad">Female</span>
+        <input type="radio" name="gender" value="other">
+        <span class="rad">Other</span>
+        <button>Sign Up</button>
+        <h3>Already have account ? <a class="aclk" href="signin.html">Click here!</a></h3>
+      </form>
+    </div>
+    <footer>
+      <div class="d6" id="footer">
+          <h1>COFFEE</h1>
+          <span class="d61">
+
+              <br><br>
+              <p>
+              <h5>COFFEE</h5>
+              <br>
+              we're excited to share the story that every<br>
+              bean can tell. come on<br> in,take a sip, and explore with us!
+
+              </p>
+          </span>
+
+          <span class="d61">
+              <br><br>
+              <p>
+              <h5>Hours</h5>
+              <br>
+              MON-FRI: 9AM-11PM<br>
+              SAT-SUN:5PM-2AM<br> BAR OPEN ONLY ON WEEKENDS. </p>
+          </span>
+          <span class="d61">
+
+              <br><br>
+              <p>
+              <h5>CONTACT</h5>
+              <br>
+              55 ADELAIDE ST E,<BR>TORANTO,ON M5C 1K6<BR>CANADA<BR>
+              <h6>info@coffee-skin.com</h6>
+              <div>
+                  <h5 class="text-capitalize">follow us now :- </h5>
+                  <i class="fa fa-whatsapp fa-2x text-success  rounded-circle"></i>
+                  <i class="fa fa-twitter fa-2x text-primary rounded-circle"></i>
+                  <i class="fa fa-facebook fa-2x text-info rounded-circle"></i>
+                  <i class="fa fa-instagram fa-2x text-danger rounded-circle"></i>
+
+              </div>
+
+
+              </p>
+          </span>
+
+      </div>
+      <div style=" width:100%; text-align: center; padding-bottom: 10px; text-transform: capitalize;">** Copyright by Sachin Lawaniya 3 march 2024 | <strong>privacy</strong> | <strong>include files</strong> - <br>
+          contact me - <strong>sachinlawaniya1234@gmail.com</strong>
+          </div>
+  </footer>
+  </body>
+</html>

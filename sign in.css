@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#showpassword{
+    margin-left: 85%;
+}
+@media only screen and (max-width:375px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .form{
+        width:100px;
+    }
+    #showpassword{
+        margin-left: 0%;
+    }
+   
+
+
+
+
+
+}
